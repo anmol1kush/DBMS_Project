@@ -1,0 +1,138 @@
+/* Home Page Main Container */
+.home-container {
+    font-family: "Arial", sans-serif;
+  }
+  
+  /* Hero Section */
+  .hero {
+    background: url("/images/hero-bg.jpg") no-repeat center center;
+    background-size: cover; /* Ensures the image covers the full section */
+    height: 100vh; /* Full viewport height to fit the screen */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+  }
+  
+  /* Hero Content */
+  .hero-content {
+    background: rgba(0, 0, 0, 0.5); /* Dark overlay for readability */
+    padding: 40px;
+    border-radius: 10px;
+    max-width: 600px;
+  }
+  
+  .hero-content h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+  }
+  
+  .hero-content p {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  
+  /* Buttons */
+  .btn {
+    padding: 12px 24px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .btn-primary {
+    background-color: #1e3a8a;
+    color: white;
+  }
+  
+  .btn-primary:hover {
+    background-color: #3b82f6;
+  }
+  
+  .btn-secondary {
+    background-color: #f59e0b;
+    color: white;
+  }
+  
+  .btn-secondary:hover {
+    background-color: #fbbf24;
+  }
+  
+  /* Services Section */
+  .services {
+    padding: 60px 20px;
+    background-color: #f3f4f6;
+    text-align: center;
+  }
+  
+  .services h2 {
+    font-size: 28px;
+    margin-bottom: 30px;
+  }
+  
+  .services-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  
+  /* Service Card */
+  .service-card {
+    background: white;
+    padding: 20px;
+    width: 300px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .service-card img {
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 10px;
+  }
+  
+  .service-card h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  /* Booking Section */
+  .booking {
+    background-color: #1e3a8a;
+    color: white;
+    text-align: center;
+    padding: 60px 20px;
+  }
+  
+  .booking h2 {
+    font-size: 28px;
+    margin-bottom: 10px;
+  }
+  
+  .booking p {
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .hero {
+      height: 60vh;
+    }
+  
+    .services-container {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .service-card {
+      width: 90%;
+    }
+  }
+  
